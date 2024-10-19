@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+.navbar{
+    background-color: rgb(58, 53, 54);
+    height:72px;
+    font: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{ 
+    height: 22px;
+    width: 900px;
+}
+
+.logo{
+    height: 22px;
+    width: 190px;
+    background-image: url("Alibaba-Logo.png"); 
+    background-size: cover;
+}
+
+.add-first{
+    color:white;
+    font-size: 0.85rem;;
+    margin-left: 28px;
+}
+
+.add-second{ 
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.add-icon{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.add-icon i{
+   font-size: 24px;
+}
+
+
+.globe i {
+    font-size: 24px;
+}
+
+.globe {
+    font-size: 1rem;
+    color:white
+}
+
+.sign-in{ 
+    font-size: 14px;
+    color: #fff;
+}
+
+.sign-in i{
+    font-size: 24px;
+}
+
+.signup-button{ 
+    width:120px;
+    height:36px;
+    border-radius: 9999px;
+    background-color: #f60; 
+    text-align: center; 
+    line-height: 36px;
+}
+
+button{
+     
+    padding: 0px 24px;
+    background-color: #f60; 
+    color:#fff;
+    font-size: 14px; 
+    font-weight: 600;
+    border: none;
+}
+
+
+.panel{ 
+    height: 40px;
+    background-color: black;
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.panel-ops1{ 
+    width: 50%; 
+    font-size: 0.95rem;
+}
+
+.panel-ops1 p{ 
+    display: inline;
+    margin-left: 10px; 
+}
+
+.panel-ops2{ 
+    width: 33%; 
+    font-size: 0.95rem;
+}
+
+.panel-ops2 p{
+    display: inline;  
+    width: 100%;
+    margin-left: 10px;
+    font-size: 0.95rem; 
+    text-align: right;
+}
